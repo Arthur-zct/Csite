@@ -3,9 +3,9 @@ import Categorias from '../Paginas/categorias';
 
 export default function Home(){
     return(
-        <div>
+        <section>
             <Categorias/>
             <a>Homeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</a>
-        </div>
+        </section>
     )
 }
