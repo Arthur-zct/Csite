@@ -1,0 +1,45 @@
+.categorias_container {
+    background-color: #E1523D;
+    width: 60vw;
+    height: 6.2em;
+    margin: auto;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+    height: .5em;
+    background-color: rgb(21, 21, 24);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #005E54;
+}
+
+.categorias {
+    display: flex;
+    height: 100%; 
+    text-decoration: none; 
+}
+
+.categoIcon{
+    height: 70%;   
+    margin: .5em 1.9em;
+    list-style: none;
+}
+
+.categoIcon:hover{
+    height: 75%;
+}
+
+.categoIcon img {
+    height: 90%;
+}
+
+.categoIcon p {
+    font-size: .9em;
+    text-align: center;
+    color: black;
+}
+
