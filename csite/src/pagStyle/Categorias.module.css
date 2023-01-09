@@ -8,14 +8,14 @@
     border-radius: .4em .5em .5em .4em;
 }
 
-::-webkit-scrollbar {
+.Section ::-webkit-scrollbar {
     width: .4em;
     background-color: #E1523D;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
 }
 
-::-webkit-scrollbar-thumb {
+.Section ::-webkit-scrollbar-thumb {
     background-color: #005E54;
     border-radius: 1em;
 }

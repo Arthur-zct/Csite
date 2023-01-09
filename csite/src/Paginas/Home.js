@@ -3,11 +3,14 @@ import Categorias from '../Paginas/categorias';
 
 export default function Home(){
     return(
-        <main>   
+        <main>
+            <>
             <Categorias/> 
                 
             
             <a>Home</a>
+            </>  
+            
             
         </main>
     )
