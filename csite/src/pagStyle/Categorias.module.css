@@ -2,9 +2,9 @@
     background-color: #E1523D;
     width: 9vw;
     height: 70vh;
-    margin-left: 2em;
+    margin-left: 4em;
     overflow-y: scroll;
-    margin-top: 10px;
+    margin-top: 1em;
     border-radius: .4em .5em .5em .4em;
 }
 
@@ -104,6 +104,8 @@
         padding-right: 1em;
         padding-bottom: 0;
     }
+
+    
    
 }
 

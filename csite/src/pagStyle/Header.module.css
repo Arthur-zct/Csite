@@ -42,3 +42,14 @@
 
 
 
+@media (max-width: 1000px) {
+    .link:hover {
+        font-size: 1.1em;
+        color: black;
+    }
+
+    .logo > img:hover {
+        height: 3em;
+    }
+
+}
