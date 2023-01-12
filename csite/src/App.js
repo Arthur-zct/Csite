@@ -15,9 +15,6 @@ import Ferrament_constru from './Paginas/Ferram-constru'
 
 import './App.css';
 
-
-
-
 function App() {
   return (
     <Router>

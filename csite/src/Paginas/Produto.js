@@ -5,7 +5,7 @@ export default function Home(props){
     return(
         <main>
             <div className={Styles.ProduCont}>
-                
+                <p>{props.name}</p>
             </div>  
             
             
