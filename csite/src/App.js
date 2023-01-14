@@ -13,6 +13,9 @@ import Eletronicos from './Paginas/Eletronicos'
 import Pets from './Paginas/Pets'
 import Ferrament_constru from './Paginas/Ferram-constru'
 
+import ProdutoG from './Paginas/ProdutoG'
+
+
 import './App.css';
 
 function App() {
@@ -22,17 +25,18 @@ function App() {
       <Header/>
   
       <Routes>
-        <Route exact path='/' element={<Home/>}></Route>
-        <Route exact path='/Adproduto' element={<Adproduto/>}></Route>
-        <Route exact path='/Roupas' element={<Roupas/>}></Route>
-        <Route exact path='/Computadores' element={<Computadores/>}></Route>
-        <Route exact path='/Joias' element={<Joias/>}></Route>
-        <Route exact path='/Moveis' element={<Moveis/>}></Route>
-        <Route exact path='/Automoveis' element={<Automoveis/>}></Route>
-        <Route exact path='/Celulares' element={<Celulares/>}></Route>
-        <Route exact path='/Eletronicos' element={<Eletronicos/>}></Route>
-        <Route exact path='/Pets' element={<Pets/>}></Route>
-        <Route exact path='/Ferrament_constru' element={<Ferrament_constru/>}></Route>
+        <Route exact path='/' element={<Home/>}/>
+        <Route exact path='/Adproduto' element={<Adproduto/>}/>
+        <Route exact path='/Roupas' element={<Roupas/>}/>
+        <Route exact path='/Computadores' element={<Computadores/>}/>
+        <Route exact path='/Joias' element={<Joias/>}/>
+        <Route exact path='/Moveis' element={<Moveis/>}/>
+        <Route exact path='/Automoveis' element={<Automoveis/>}/>
+        <Route exact path='/Celulares' element={<Celulares/>}/>
+        <Route exact path='/Eletronicos' element={<Eletronicos/>}/>
+        <Route exact path='/Pets' element={<Pets/>}/>
+        <Route exact path='/Ferrament_constru' element={<Ferrament_constru/>}/>
+        <Route exact path='/ProdutoG/:catego/:id' element={<ProdutoG/>}/>
       </Routes>
 
       <Footer/>

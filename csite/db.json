@@ -1,12 +1,81 @@
 {
-    "projetos": [
+    "Destaques": [
         {
             "id": 1,
-            "nome": "jorge"
+            "name": "Cadeira giratória",
+            "img": "https://www.flexmesasecadeiras.com.br/loja/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/c/a/cadeira-job-executiva-giratoria-preta-01.jpg",
+            "descricao": "Cadeira giratória ergonômica de cor preta.",
+            "price": 300,
+            "MovelId": 2
         },
         {
             "id": 2,
-            "nome": "enrrique"
+            "name": "enrrique",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        },
+        {
+            "id": 3,
+            "name": "ana",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        },
+        {
+            "id": 4,
+            "name": "clauido",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        },
+        {
+            "id": 5,
+            "name": "clauido",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        },
+        {
+            "id": 6,
+            "name": "clauido",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        },
+        {
+            "id": 7,
+            "name": "clauido",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        },
+        {
+            "id": 8,
+            "name": "clauido",
+            "img": "https://img.freepik.com/fotos-gratis/belas-paisagens-do-ceu-ao-por-do-sol-com-nuvens-coloridas-sobre-a-paisagem-urbana_181624-28639.jpg"
+        }
+    ],
+
+    "Moveis": [
+        {
+            "id": 1,
+            "name": "Armario três portas",
+            "img": "https://toqueacampainha.vteximg.com.br/arquivos/ids/1321069-767-767/100892_19.jpg?v=636287220034570000",
+            "descricao": "Armario para quartos, três portas e três gavetas, cor branca com carvalho.",
+            "price": 1900
+        },
+        {
+            "id": 2,
+            "name": "Cadeira giratória",
+            "img": "https://www.flexmesasecadeiras.com.br/loja/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/c/a/cadeira-job-executiva-giratoria-preta-01.jpg",
+            "descricao": "Cadeira giratória ergonômica de cor preta.",
+            "price": 300
+        },
+        {
+            "id": 3,
+            "name": "Poltrona decorativa.",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/poltrona-decorativa-opala-luxo-cinza-adonai-estofados/adonaiestofados/66/e0186a18ef35ec5745be534b3182b564.jpeg",
+            "descricao": "Poltrona decorativa com estofado cinza.",
+            "price": 600
+        }
+    ],
+
+    "Roupas": [
+        {
+            "id": 1,
+            "name": "Camisa do brasil",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/camisa-brasil-oficial-amarelo-selecao-brasileiras-original-cbf/vidapeshop/aj5026gg/48dc8e33ec5c3aef1f7502fc835824b5.jpeg",
+            "descricao": "Camisa masculina amarela da seleção Brasileira, original.",
+            "price": 500   
         }
     ]
 }
