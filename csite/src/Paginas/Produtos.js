@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Styles from '../pagStyle/Produtos.module.css'
 import api from "../servicos/api";
 import Produto from './Produto'
-//import ProdutoG from './ProdutoG'
 import { Link } from "react-router-dom";
 
 export default function Produtos(){
@@ -17,9 +16,10 @@ export default function Produtos(){
 
   return(
     <section className={Styles.produtosContainer}>
+      <h1>Destaques</h1>
       <ul className={Styles.ProduList}>
         {produto?.map((valor)=> (
-          <li key={valor.id}> <Link to={`/ProdutoG/${type}/${valor.id}`} ><Produto name={valor.name} id={valor.id} img={valor.img}/></Link> </li>
+          <li  key={valor.id}> <Link className={Styles.produLink} to={`/ProdutoDetalhes/${type}/${valor.id}`} ><Produto name={valor.name} price={valor.price} img={valor.img}/></Link> </li>
         ))}
       </ul>  
     </section>

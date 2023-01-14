@@ -1,6 +1,6 @@
 .header {
-    background-color: #f59723;
-    height: 5.5em;
+    background-color: rgb(248, 245, 245);
+    height: 6em;
     display: flex;
     justify-content: space-between;
     padding-left: 1.7em;
@@ -18,7 +18,7 @@
 }
 
 .link {   
-    margin-right: 1em;
+    margin-right: 2em;
     font-weight: bold;
     font-size: 1.1em;
     text-decoration: none;
@@ -26,17 +26,18 @@
 }
 
 .link:hover {
-    font-size: 1.2em;
-    color: rgb(219, 44, 44);
+    font-size: 1.3em;
+    text-decoration: underline;
 }
 
 
 .logo > img {
-    height: 3em;   
+    height: 4em;
+    margin-left: 2em;   
 }
 
 .logo > img:hover {
-    height: 3.6em;
+    height: 4.2em;
 }
 
 
@@ -46,10 +47,11 @@
     .link:hover {
         font-size: 1.1em;
         color: black;
+        text-decoration: none;
     }
 
     .logo > img:hover {
-        height: 3em;
+        height: 4em;
     }
 
 }

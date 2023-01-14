@@ -16,10 +16,10 @@ export default function Roupas(){
     const type = "Roupas";
 
     return(
-        <section>   
+        <section className={Styles.Fundo}>   
             <ul className={Styles.ProduList}>
                 {produto?.map((valor)=> (
-                    <li key={valor.id}> <Link to={`/ProdutoG/${type}/${valor.id}`} ><Produto name={valor.name} id={valor.id} img={valor.img}/></Link> </li>
+                    <li key={valor.id}> <Link className={Styles.produLink} to={`/ProdutoDetalhes/${type}/${valor.id}`} ><Produto name={valor.name} price={valor.price} img={valor.img}/></Link> </li>
                     )) 
                 }
             </ul> 

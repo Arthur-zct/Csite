@@ -13,7 +13,7 @@ import Eletronicos from './Paginas/Eletronicos'
 import Pets from './Paginas/Pets'
 import Ferrament_constru from './Paginas/Ferram-constru'
 
-import ProdutoG from './Paginas/ProdutoG'
+import ProdutoDetalhes from './Paginas/ProdutoDetalhes'
 
 
 import './App.css';
@@ -36,7 +36,7 @@ function App() {
         <Route exact path='/Eletronicos' element={<Eletronicos/>}/>
         <Route exact path='/Pets' element={<Pets/>}/>
         <Route exact path='/Ferrament_constru' element={<Ferrament_constru/>}/>
-        <Route exact path='/ProdutoG/:catego/:id' element={<ProdutoG/>}/>
+        <Route exact path='/ProdutoDetalhes/:catego/:id' element={<ProdutoDetalhes/>}/>
       </Routes>
 
       <Footer/>
