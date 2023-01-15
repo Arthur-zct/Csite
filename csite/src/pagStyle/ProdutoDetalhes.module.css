@@ -40,4 +40,5 @@ img{
     background-color: #ffa736;
     color: white;
     border-radius: 1em;
+    cursor: pointer;
 }

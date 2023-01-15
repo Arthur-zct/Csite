@@ -20,7 +20,7 @@ export default function Produto(){
             <div className={Styles.DetalhesPro}>
                 <img src={produto?.img} />
                 <div className={Styles.info}>
-                    <h1>{produto?.name}.</h1>
+                    <h1>{produto?.name}</h1>
                     <p>{produto?.descricao}</p>
                     <h3>R${produto?.price}</h3>
                     <button>Comprar</button>
