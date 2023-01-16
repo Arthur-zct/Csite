@@ -1,7 +1,7 @@
 import React from "react"
 import api from "../servicos/api"
 import { useState } from "react"
-import { Link } from "react-router-dom"
+
 import Style from '../pagStyle/AdProduto.module.css'
 
 export default function Adproduto(){
@@ -14,13 +14,19 @@ export default function Adproduto(){
     function criarProduto(e) {
         e.preventDefault();
 
+        let Catego = document.querySelector('#categorias').value;
+
         const post = {Name,img, descricao, preco}
 
-        api.post("Roupas", post)
+        api.post(Catego, post)
     }
 
+    
+    
+    
+
     return(
-        <div>
+        <section className={Style.container}>
             <h2>Inserir produto.</h2>
             <form onSubmit={(e) => criarProduto(e)}>
                 <div>
@@ -35,22 +41,31 @@ export default function Adproduto(){
                     <label htmlFor="preco">Preço:</label>
                     <input type="text" required="required" name="preco" placeholder="Digite o preço" onChange={(e) => setPreco(e.target.value)}/>
                 </div>
+
                 <div className={Style.ADimg}>
-                    <label htmlFor="imagem" >Adicionar imagem</label>
-                    <input type="file" required="required" name="imagem" id="imagem" onChange={(e) => setImg(e.target.value)}/>
+                    <label htmlFor="imagem">
+                        Adicionar imagem
+                    </label>
+                    <input type="file" required="required" name="imagem" id="imagem" accept="image/*" onChange={(e) => setImg(e.target.value)}/>
                 </div>
+
                 <div>
                     Escolha a categoria do produto: 
                     <br/>
-                    <select name="categorias" required="required">
+                    <select name="categorias" id="categorias" required="required">
                         <option value="Roupas">Roupas</option>
                         <option value="Computadores">Computadores</option>
                         <option value="Moveis">Moveis</option>
                         <option value="Joias">Joias</option>
+                        <option value="Automoveis">Automoveis</option>
+                        <option value="Celulares">Celulares</option>
+                        <option value="Pets">Pets</option>
+                        <option value="Eletronicos">Eletronicos</option>
+                        <option value="Construcao">Construção</option>
                     </select>
                 </div>          
-                <input type="submit" name="conteudo" placeholder="Digite a descrição" />        
+                <button className={Style.btn}>Criar</button>        
             </form>
-        </div>
+        </section>
     )
 }

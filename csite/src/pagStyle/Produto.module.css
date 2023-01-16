@@ -19,3 +19,17 @@ img{
     height: 100%;
     max-width: 100%;
 }
+
+@media (max-width: 1000px) {
+    .ProduCont{
+        margin-left: 4.5em;
+        margin-top: 1.3em;
+        height: 14em;
+        width: 14em;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.197);
+    }
+}
