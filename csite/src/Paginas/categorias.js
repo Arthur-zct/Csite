@@ -1,15 +1,15 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Roupa from '../imgs/Categorias-icons/Roupas.png'
+import Roupa from '../imgs/Categorias-icons/roupas.png'
 import Styles from '../pagStyle/Categorias.module.css'
 import Computadores from '../imgs/Categorias-icons/computador.png'
 import Moveis from '../imgs/Categorias-icons/moveis.png'
 import Joias from '../imgs/Categorias-icons/Joias.png'
 import Automoveis from '../imgs/Categorias-icons/automoveis.png'
-import Celulares from '../imgs/Categorias-icons/celular.png'
+import Celulares from '../imgs/Categorias-icons/celulares.png'
 import Ferrament_constru from '../imgs/Categorias-icons/ferramentas.png'
 import Pets from '../imgs/Categorias-icons/pets.png'
-import Eletronicos from '../imgs/Categorias-icons/radio.png'
+import Eletronicos from '../imgs/Categorias-icons/eletronicos.png'
 
 export default function Categorias(){
     return(

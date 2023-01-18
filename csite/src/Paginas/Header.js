@@ -11,8 +11,8 @@ export default function Header(){
             
             <nav>
                 <ul>
-                    <li><Link to='/' className={Styles.link}>Home</Link></li>
-                    <li><Link to='/Adproduto' className={Styles.link}>Adicionar produto</Link></li>
+                    <li className={Styles.Li}><Link to='/' className={Styles.link}>Home</Link></li>
+                    <li className={Styles.Li}><Link to='/Adproduto' className={Styles.link}>Adicionar produto</Link></li>
                 </ul>               
             </nav>
         </header>
