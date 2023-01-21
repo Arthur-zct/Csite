@@ -72,9 +72,8 @@
     }
 
     
-    ::-webkit-scrollbar {
+    .Section ::-webkit-scrollbar {
         height: .5em;
-        background-color: #E1523D;
         border-bottom-left-radius: 1em;
         border-bottom-right-radius: 1em;
         width: 100%;

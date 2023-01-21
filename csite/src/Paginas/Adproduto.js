@@ -46,14 +46,16 @@ export default function Adproduto(){
                     <label htmlFor="imagem">
                         Adicionar imagem
                     </label>
+                    <br/>
                     <input type="file" required="required" name="imagem" id="imagem" accept="image/*" onChange={(e) => setImg(e.target.value)}/>
                 </div>
 
-                <div>
+                <div className={Style.SelectCont}>
                     Escolha a categoria do produto: 
                     <br/>
-                    <select name="categorias" id="categorias" required="required">
-                        <option value="Roupas">Roupas</option>
+                    <div className={Style.SelectOptions}>
+                       <select name="categorias" id="categorias" required="required">
+                        <option  value="Roupas">Roupas</option>
                         <option value="Computadores">Computadores</option>
                         <option value="Moveis">Moveis</option>
                         <option value="Joias">Joias</option>
@@ -62,7 +64,8 @@ export default function Adproduto(){
                         <option value="Pets">Pets</option>
                         <option value="Eletronicos">Eletronicos</option>
                         <option value="Construcao">Construção</option>
-                    </select>
+                        </select> 
+                    </div>
                 </div>          
                 <button className={Style.btn}>Criar</button>        
             </form>

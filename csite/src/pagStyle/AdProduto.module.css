@@ -2,7 +2,7 @@
     padding: 2em;
 }
 
-h2 {
+.container h2 {
     text-indent: 1.2em;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +38,56 @@ form div input {
 }
 
 
+@media (max-width: 1000px){
+    .container {
+        padding: 0em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        font-size: 2em;
+    }
+
+    form div input {
+        height: 2.3em;
+        margin-left: .5em;
+        font-size: .5em;
+        border: 1px solid black;
+    }
+
+    .ADimg input{
+        border: none;
+    }
+
+    .container select {
+        font-size: .6em;
+    }
+}
+
+
+
+
+@media (max-width: 400px){
+    .container {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .container h2 {
+        font-size: 1.3em;
+    }
+
+
+    form div input {
+        height: 2em;
+        margin-left: .5em;
+        font-size: .4em;
+        border: 1px solid black;
+    }
+
+    .ADimg input {
+        margin: 0;
+        font-size: .4em;
+    }
+}
 
 
 
