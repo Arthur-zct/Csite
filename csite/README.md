@@ -1,1 +1,1 @@
-oi
+Projeto conta com uma fake Api, para ativa-lá utilize "npm run backend" no terminal.
