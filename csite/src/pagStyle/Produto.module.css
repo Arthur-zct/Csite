@@ -22,37 +22,13 @@ img{
 
 @media (max-width: 1280px) {
     .ProduCont{
-        margin-left: 3em;
-        margin-top: 1.3em;
-        height: 14em;
         width: 12em;
-        text-align: center;
-        text-decoration: none;
-        color: black;
-        background-color: white;
-        box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.197);
     }
 }
 
-@media (max-width: 1090px) {
-    .ProduCont{
-        margin-left: 3em;
-        margin-top: 1.3em;
-        height: 14em;
-        width: 12em;
-        text-align: center;
-        text-decoration: none;
-        color: black;
-        background-color: white;
-        box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.197);
-    }
-}
 
 @media (max-width: 1000px) {
     .ProduCont{
-        margin-left: 3em;
-        margin-top: 1.3em;
-        height: 14em;
         width: 14em;
     }
 }
@@ -60,7 +36,6 @@ img{
 @media (max-width: 920px) {
     .ProduCont{
         margin-left: 7em;
-        margin-top: 1.3em;
         height: 16em;
         width: 16em;
     }
@@ -69,29 +44,20 @@ img{
 @media (max-width: 820px) {
     .ProduCont{
         margin-left: 5em;
-        margin-top: 1.3em;
     }
 }
 
 @media (max-width: 790px) {
     .ProduCont{
         margin-left: 4.5em;
-        margin-top: 1.3em;
-        height: 16em;
-        width: 16em;
-        text-align: center;
-        text-decoration: none;
     }
 }
 
 @media (max-width: 550px) {
     .ProduCont{
         margin-left: 3em;
-        margin-top: 1.3em;
         height: 14em;
         width: 12em;
-        text-align: center;
-        text-decoration: none;
     }
 }
 
@@ -104,19 +70,11 @@ img{
 @media (max-width: 410px) {
     .ProduCont{
         margin-left: 1em;
-        margin-top: 1.3em;
-        height: 14em;
-        width: 12em;
-        text-align: center;
-
     }
 }
 
 @media (max-width: 280px) {
     .ProduCont{
         margin-left: 4em;
-        margin-top: 1.3em;
-        height: 14em;
-        width: 12em;
     }
 }
